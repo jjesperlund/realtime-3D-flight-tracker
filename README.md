@@ -1,16 +1,13 @@
-# Webpack THREE.js Template
+# Real Time 3D Flight Tracker
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+A 3D visualization that uses AirLab's Data API to fetch flight positions for all currently airborne passenger aircrafts. A simplified airplane 3D model is loaded for each aircraft and the flight positions are converted into spherical coordinates and mapped onto a sphere, that is the earth.
 
-``` bash
-# Install dependencies (only for first time)
-npm i
+## Tools
 
-# Serve at localhost:8080
-npm run dev
+- ThreeJS
+- AirLab's Data API
 
-# Build for production in the dist/ directory
-npm run build
-```
+## Screenshots
+<img src="./static/screenshots/screenshot1.png" width="800" style="border-radius:10px"/>
+<img src="./static/screenshots/screenshot2.png" width="800" style="border-radius:10px" />
+<img src="./static/screenshots/screenshot3.png" width="800" style="border-radius:10px" />

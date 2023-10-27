@@ -1,6 +1,6 @@
 # Real Time 3D Flight Tracker
 
-A 3D visualization that uses AirLab's Data API to fetch flight positions for all currently airborne passenger aircrafts. A simplified airplane 3D model is loaded for each aircraft and the flight positions are converted into spherical coordinates and mapped onto a sphere, that is the earth.
+A 3D visualization that uses AirLab's Data API to fetch flight positions and directions for all currently airborne passenger aircrafts. A simplified airplane 3D model is loaded for each aircraft and the flight positions in latitude, longitude and altitude are converted into spherical coordinates and mapped onto the earth. The airplanes are locally rotated according to each airplane's direction in the API response to align the airplane 3D model with the airplanes actual direction.
 
 ## Tools
 
